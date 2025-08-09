@@ -1,0 +1,6 @@
+bash build_civiliumtrust.sh
+cd CIVILIUM_TRUST_FINAL_LAUNCH_v3
+git init && git add . && git commit -m "init"
+git branch -M main
+git remote add origin https://github.com/TVOJ-USER/civiliumtrust.git
+git push -u origin main
